@@ -22,12 +22,16 @@ font-size: 80px;
   color: green;
 }
 
-.change-theme {
+.black {
   color: white;
-  background-color: gray;
+  background-color: black;
+}
+
+.blue {
+  color: blue;
+  background-color: slategrey;
 }
 
 body {
-  
   object-position: center;
 }

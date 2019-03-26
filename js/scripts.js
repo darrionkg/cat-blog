@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  ("button#theme-button").click(function() {
-    $("body").addClass("change-theme");
+  $("button#blueThemeButton").click(function() {
+    $("body").removeClass();
+    $("body").addClass("blue");
   });
-})
+  $("button#blackThemeButton").click(function() {
+    $("body").removeClass();
+    $("body").addClass("black");
+  });
+});
